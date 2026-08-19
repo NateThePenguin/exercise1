@@ -78,7 +78,7 @@ function main() {
     var imagedata = context.createImageData(w,h);
  
     // Draw a rectangle with pixels
-    var c = new Color(55,150,255); // the color at the pixel: black opaque
+    var c = new Color(55, 55,150,255); // the color at the pixel: black opaque
     for (var x=10; x<125; x++) 
         for (var y=30; y<75; y++) {
             drawPixel(imagedata,x,y,c);
